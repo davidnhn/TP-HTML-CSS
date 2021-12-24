@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <div id="maBanniere">
+            <img src="https://picsum.photos/seed/picsum/800/200" alt="banniere">
+        </div>
+        <h1>Bienvenue sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form id="myForm" method="post" action="maPage.php">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label class="required" for="name">Entrez votre nom : </label>
+                    <input type="text" placeholder="Ex : François Dupont" minlength="2" maxlength="20" required>
+                </div>
+                <label class="required" for="mail">Entrez votre mail : </label>
+                <input class="required" type="mail" placeholder="Ex : votreadresse@gmail.com" required>
+                <div>
+                </div>
+                <div>
+                    <label for="comment">Laissez un commentaire :</label><br>
+                    <textarea name="commentaire" placeholder="Saisissez votre commentaire" id="" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="copy">
+                    <input type="checkbox" name="copy" id="" checked>
+                    Envoyez une copie par e-mail
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="https://www.google.com">GOOGLE</a></li>
+            <li><a href="https://www.faceook.com">FACEBOOK</a></li>
+            <li><a href="https://www.twitter.com">TWITTER</a></li>
+            <li><a href="https://www.twitter.com">TWITTER</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

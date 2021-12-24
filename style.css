@@ -1,0 +1,71 @@
+body {
+    background-image: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #EF233C;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+}
+
+h3 {
+    color: #2B2D42;
+    font-size: 3em;
+    text-decoration: underline dotted #2B2D42;
+}
+
+section article {
+    border: solid 1px black;
+}
+
+#maBanniere {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+}
+
+article img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    border: solid 2px #8D99AE;
+}
+
+footer {
+    text-align: right;
+}
+
+footer ul {
+    list-style: none;
+}
+
+a:link {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color:  #2B2D42;
+}
+
+#myForm div {
+    margin-top: 2px;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
